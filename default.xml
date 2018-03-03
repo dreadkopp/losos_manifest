@@ -4,7 +4,7 @@
   <remote fetch=".." name="github" review="review.lineageos.org"/>
   <remote fetch="ssh://git@github.com" name="private"/>
   
-  <default remote="github" revision="refs/heads/staging/lineage-15.1" sync-c="true" sync-j="4"/>
+  <default remote="github" revision="refs/heads/lineage-15.1" sync-c="true" sync-j="4"/>
   
   <project name="LineageOS/android" path="android"/>
   <project groups="pdk" name="LineageOS/android_bionic" path="bionic"/>
