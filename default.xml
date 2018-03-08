@@ -209,7 +209,7 @@
   <project name="LineageOS/android_device_lge_vs985" path="device/lge/vs985" revision="lineage-15.1"/>
   <project name="LineageOS/android_device_qcom_common" path="device/qcom/common" revision="lineage-15.1"/>
   <project name="LineageOS/android_kernel_lge_g3" path="kernel/lge/g3" revision="lineage-15.1"/>
-  <project name="LineageOS/proprietary_vendor_lge" path="vendor/lge" revision="lineage-15.1"/>
+  <project name="crdroid-devices/proprietary_vendor_lge" path="vendor/lge" revision="8.1"/>
   <project groups="pdk-cw-fs,pdk" name="device/common" remote="aosp"/>
   <project groups="pdk" name="device/generic/common" remote="aosp"/>
   <project groups="device,fugu,broadcom_pdk,generic_fs,pdk" name="device/google/atv" remote="aosp"/>
