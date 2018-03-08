@@ -46,6 +46,7 @@
   <project name="LineageOS/android_external_exfat" path="external/exfat"/>
   <project groups="pdk" name="LineageOS/android_external_f2fs-tools" path="external/f2fs-tools"/>
   <project name="LineageOS/android_external_fuse" path="external/fuse"/>
+  <project name="LineageOS/android_external_one-true-awk" path="external/one-true-awk" />
   <project groups="pdk" name="LineageOS/android_external_gptfdisk" path="external/gptfdisk"/>
   <project name="LineageOS/android_external_htop" path="external/htop"/>
   <project name="LineageOS/android_external_json-c" path="external/json-c"/>
