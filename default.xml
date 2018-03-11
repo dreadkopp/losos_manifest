@@ -200,14 +200,14 @@
   <project name="LiquidRemix/android_packages_apps_LiquidLounge" path="packages/apps/LiquidLounge" revision="oc-mr1"/>
   <project name="LiquidRemix/android_packages_apps_PhoneCommon" path="packages/apps/PhoneCommon" revision="oc-mr1"/>
   <project name="LiquidRemix/android_packages_apps_Settings" path="packages/apps/Settings" revision="oc-mr1"/>
-  <project name="LineageOS/android_device_lge_d850" path="device/lge/d850" revision="lineage-15.1"/>
-  <project name="LineageOS/android_device_lge_d851" path="device/lge/d851" revision="lineage-15.1"/>
-  <project name="LineageOS/android_device_lge_d852" path="device/lge/d852" revision="lineage-15.1"/>
+  <project name="crdroidandroid/android_device_lge_d850" path="device/lge/d850" revision="8.1"/>
+  <project name="crdroidandroid/android_device_lge_d851" path="device/lge/d851" revision="8.1"/>
+  <project name="crdroidandroid/android_device_lge_d852" path="device/lge/d852" revision="8.1"/>
   <project name="crdroidandroid/android_device_lge_d855" path="device/lge/d855" revision="8.1"/>
-  <project name="LineageOS/android_device_lge_f400" path="device/lge/f400" revision="lineage-15.1"/>
+  <project name="crdroidandroid/android_device_lge_f400" path="device/lge/f400" revision="8.1"/>
   <project name="LineageOS/android_device_lge_g3-common" path="device/lge/g3-common" revision="lineage-15.1"/>
-  <project name="LineageOS/android_device_lge_ls990" path="device/lge/ls990" revision="lineage-15.1"/>
-  <project name="LineageOS/android_device_lge_vs985" path="device/lge/vs985" revision="lineage-15.1"/>
+  <project name="crdroidandroid/android_device_lge_ls990" path="device/lge/ls990" revision="8.1"/>
+  <project name="crdroidandroid/android_device_lge_vs985" path="device/lge/vs985" revision="8.1"/>
   <project name="LineageOS/android_device_qcom_common" path="device/qcom/common" revision="lineage-15.1"/>
   <project name="LineageOS/android_kernel_lge_g3" path="kernel/lge/g3" revision="lineage-15.1"/>
   <project name="crdroid-devices/proprietary_vendor_lge" path="vendor/lge" revision="8.1"/>
