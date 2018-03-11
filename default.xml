@@ -1,17 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
+  <remote fetch="https://android.googlesource.com" name="aosp" review="android-review.googlesource.com" revision="refs/tags/android-8.1.0_r18"/>
   <remote fetch=".." name="github" review="review.lineageos.org"/>
   <remote fetch="ssh://git@github.com" name="private"/>
   
-  <remote  name="aosp"
-           fetch="https://android.googlesource.com"
-           review="android-review.googlesource.com"
-           revision="refs/tags/android-8.1.0_r18" />
-   
-  <default revision="refs/heads/lineage-15.1"
-           remote="github"
-           sync-c="true"
-           sync-j="4" />
+  <default remote="github" revision="refs/heads/lineage-15.1" sync-c="true" sync-j="4"/>
   
   <project name="LineageOS/android" path="android"/>
   <project groups="pdk" name="LineageOS/android_bionic" path="bionic"/>
@@ -32,7 +25,9 @@
   </project>
   <project groups="pdk-cw-fs,pdk-fs" name="LineageOS/android_dalvik" path="dalvik"/>
   <project groups="developers,pdk-cw-fs,pdk-fs" name="LineageOS/android_development" path="development"/>
+  <project name="LineageOS/android_device_lge_g3-common" path="device/lge/g3-common" revision="lineage-15.1"/>
   <project name="LineageOS/android_device_lineage_sepolicy" path="device/lineage/sepolicy"/>
+  <project name="LineageOS/android_device_qcom_common" path="device/qcom/common" revision="lineage-15.1"/>
   <project name="LineageOS/android_device_qcom_sepolicy" path="device/qcom/sepolicy"/>
   <project name="LineageOS/android_external_ant-wireless_ant_native" path="external/ant-wireless/ant_native"/>
   <project name="LineageOS/android_external_ant-wireless_ant_service" path="external/ant-wireless/ant_service"/>
@@ -46,7 +41,6 @@
   <project name="LineageOS/android_external_exfat" path="external/exfat"/>
   <project groups="pdk" name="LineageOS/android_external_f2fs-tools" path="external/f2fs-tools"/>
   <project name="LineageOS/android_external_fuse" path="external/fuse"/>
-  <project name="LineageOS/android_external_one-true-awk" path="external/one-true-awk" />
   <project groups="pdk" name="LineageOS/android_external_gptfdisk" path="external/gptfdisk"/>
   <project name="LineageOS/android_external_htop" path="external/htop"/>
   <project name="LineageOS/android_external_json-c" path="external/json-c"/>
@@ -58,6 +52,7 @@
   <project groups="pdk" name="LineageOS/android_external_mksh" path="external/mksh"/>
   <project name="LineageOS/android_external_nano" path="external/nano"/>
   <project name="LineageOS/android_external_ntfs-3g" path="external/ntfs-3g"/>
+  <project name="LineageOS/android_external_one-true-awk" path="external/one-true-awk"/>
   <project name="LineageOS/android_external_p7zip" path="external/p7zip"/>
   <project name="LineageOS/android_external_pigz" path="external/pigz"/>
   <project name="LineageOS/android_external_powertop" path="external/powertop"/>
@@ -120,7 +115,6 @@
   <project groups="pdk" name="LineageOS/android_hardware_ril" path="hardware/ril"/>
   <project groups="pdk" name="LineageOS/android_hardware_ril" path="hardware/ril-caf" revision="staging/lineage-15.1-caf"/>
   <project groups="pdk-cw-fs,pdk-fs" name="LineageOS/android_packages_apps_BasicSmsReceiver" path="packages/apps/BasicSmsReceiver"/>
-  <project name="platform/packages/apps/Bluetooth" path="packages/apps/Bluetooth" remote="aosp"/>
   <project groups="pdk-cw-fs,pdk-fs" name="LineageOS/android_packages_apps_CarrierConfig" path="packages/apps/CarrierConfig"/>
   <project groups="pdk-cw-fs,pdk-fs" name="LineageOS/android_packages_apps_CellBroadcastReceiver" path="packages/apps/CellBroadcastReceiver"/>
   <project groups="pdk-cw-fs,pdk-fs" name="LineageOS/android_packages_apps_CertInstaller" path="packages/apps/CertInstaller"/>
@@ -166,7 +160,7 @@
   <project groups="pdk" name="LineageOS/android_system_extras" path="system/extras"/>
   <project name="LineageOS/android_system_extras_su" path="system/extras/su"/>
   <project groups="pdk" name="LineageOS/android_system_libhidl" path="system/libhidl"/>
-  <project groups="pdk" name="LineageOS/android_system_media" path="system/media"/>
+  <project name="LineageOS/android_system_media" path="system/media" revision="staging/lineage-15.1"/>
   <project groups="pdk" name="LineageOS/android_system_nfc" path="system/nfc"/>
   <project groups="qcom" name="LineageOS/android_system_qcom" path="system/qcom"/>
   <project groups="pdk" name="LineageOS/android_system_sepolicy" path="system/sepolicy"/>
@@ -200,17 +194,14 @@
   <project name="LiquidRemix/android_packages_apps_LiquidLounge" path="packages/apps/LiquidLounge" revision="oc-mr1"/>
   <project name="LiquidRemix/android_packages_apps_PhoneCommon" path="packages/apps/PhoneCommon" revision="oc-mr1"/>
   <project name="LiquidRemix/android_packages_apps_Settings" path="packages/apps/Settings" revision="oc-mr1"/>
+  <project name="crdroid-devices/proprietary_vendor_lge" path="vendor/lge" revision="8.1"/>
   <project name="crdroidandroid/android_device_lge_d850" path="device/lge/d850" revision="8.1"/>
   <project name="crdroidandroid/android_device_lge_d851" path="device/lge/d851" revision="8.1"/>
   <project name="crdroidandroid/android_device_lge_d852" path="device/lge/d852" revision="8.1"/>
   <project name="crdroidandroid/android_device_lge_d855" path="device/lge/d855" revision="8.1"/>
   <project name="crdroidandroid/android_device_lge_f400" path="device/lge/f400" revision="8.1"/>
-  <project name="LineageOS/android_device_lge_g3-common" path="device/lge/g3-common" revision="lineage-15.1"/>
   <project name="crdroidandroid/android_device_lge_ls990" path="device/lge/ls990" revision="8.1"/>
   <project name="crdroidandroid/android_device_lge_vs985" path="device/lge/vs985" revision="8.1"/>
-  <project name="LineageOS/android_device_qcom_common" path="device/qcom/common" revision="lineage-15.1"/>
-  <project name="LineageOS/android_kernel_lge_g3" path="kernel/lge/g3" revision="lineage-15.1"/>
-  <project name="crdroid-devices/proprietary_vendor_lge" path="vendor/lge" revision="8.1"/>
   <project groups="pdk-cw-fs,pdk" name="device/common" remote="aosp"/>
   <project groups="pdk" name="device/generic/common" remote="aosp"/>
   <project groups="device,fugu,broadcom_pdk,generic_fs,pdk" name="device/google/atv" remote="aosp"/>
@@ -539,6 +530,7 @@
   <project groups="marvell_bt,pdk" name="platform/hardware/marvell/bt" path="hardware/marvell/bt" remote="aosp"/>
   <project groups="pdk" name="platform/libcore" path="libcore" remote="aosp"/>
   <project groups="pdk" name="platform/libnativehelper" path="libnativehelper" remote="aosp"/>
+  <project name="platform/packages/apps/Bluetooth" path="packages/apps/Bluetooth" remote="aosp"/>
   <project groups="pdk-fs" name="platform/packages/apps/Car/libs" path="packages/apps/Car/libs" remote="aosp"/>
   <project groups="pdk-fs" name="platform/packages/apps/OneTimeInitializer" path="packages/apps/OneTimeInitializer" remote="aosp"/>
   <project groups="pdk-fs" name="platform/packages/apps/Provision" path="packages/apps/Provision" remote="aosp"/>
@@ -620,6 +612,7 @@
   <project groups="pdk" name="platform/tools/test/connectivity" path="tools/test/connectivity" remote="aosp"/>
   <project groups="pdk,tradefed" name="platform/tools/tradefederation" path="tools/tradefederation/core" remote="aosp"/>
   <project groups="pdk,tradefed" name="platform/tools/tradefederation/contrib" path="tools/tradefederation/contrib" remote="aosp"/>
+  <project name="ppajda/kernel_g3" path="kernel/lge/g3" revision="los-15.1"/>
   <project groups="pdk" name="toolchain/binutils" remote="aosp"/>
   
   <repo-hooks enabled-list="pre-upload" in-project="platform/tools/repohooks"/>
