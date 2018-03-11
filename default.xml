@@ -203,7 +203,7 @@
   <project name="LineageOS/android_device_lge_d850" path="device/lge/d850" revision="lineage-15.1"/>
   <project name="LineageOS/android_device_lge_d851" path="device/lge/d851" revision="lineage-15.1"/>
   <project name="LineageOS/android_device_lge_d852" path="device/lge/d852" revision="lineage-15.1"/>
-  <project name="LineageOS/android_device_lge_d855" path="device/lge/d855" revision="lineage-15.1"/>
+  <project name="crdroidandroid/android_device_lge_d855" path="device/lge/d855" revision="8.1"/>
   <project name="LineageOS/android_device_lge_f400" path="device/lge/f400" revision="lineage-15.1"/>
   <project name="LineageOS/android_device_lge_g3-common" path="device/lge/g3-common" revision="lineage-15.1"/>
   <project name="LineageOS/android_device_lge_ls990" path="device/lge/ls990" revision="lineage-15.1"/>
