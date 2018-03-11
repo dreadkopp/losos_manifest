@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-  <remote fetch="https://android.googlesource.com" name="aosp" review="android-review.googlesource.com" revision="refs/tags/android-8.1.0_r18"/>
+  <remote fetch="https://android.googlesource.com" name="aosp" review="android-review.googlesource.com" revision="refs/tags/android-p-preview-1"/>
   <remote fetch=".." name="github" review="review.lineageos.org"/>
   <remote fetch="ssh://git@github.com" name="private"/>
   
