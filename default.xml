@@ -120,7 +120,7 @@
   <project groups="pdk" name="LineageOS/android_hardware_ril" path="hardware/ril"/>
   <project groups="pdk" name="LineageOS/android_hardware_ril" path="hardware/ril-caf" revision="staging/lineage-15.1-caf"/>
   <project groups="pdk-cw-fs,pdk-fs" name="LineageOS/android_packages_apps_BasicSmsReceiver" path="packages/apps/BasicSmsReceiver"/>
-  <project groups="pdk-cw-fs,pdk-fs" name="LineageOS/android_packages_apps_Bluetooth" path="packages/apps/Bluetooth"/>
+  <project name="platform/packages/apps/Bluetooth" path="packages/apps/Bluetooth" remote="aosp"/>
   <project groups="pdk-cw-fs,pdk-fs" name="LineageOS/android_packages_apps_CarrierConfig" path="packages/apps/CarrierConfig"/>
   <project groups="pdk-cw-fs,pdk-fs" name="LineageOS/android_packages_apps_CellBroadcastReceiver" path="packages/apps/CellBroadcastReceiver"/>
   <project groups="pdk-cw-fs,pdk-fs" name="LineageOS/android_packages_apps_CertInstaller" path="packages/apps/CertInstaller"/>
