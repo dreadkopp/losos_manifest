@@ -612,8 +612,8 @@
   <project groups="pdk" name="platform/tools/test/connectivity" path="tools/test/connectivity" remote="aosp"/>
   <project groups="pdk,tradefed" name="platform/tools/tradefederation" path="tools/tradefederation/core" remote="aosp"/>
   <project groups="pdk,tradefed" name="platform/tools/tradefederation/contrib" path="tools/tradefederation/contrib" remote="aosp"/>
-  <!--<project name="ppajda/kernel_g3" path="kernel/lge/g3" revision="los-15.1"/>-->
-  <project name="LineageOS/android_kernel_lge_g3" path="kernel/lge/g3" revision="lineage-15.1"/>
+  <project name="ppajda/kernel_g3" path="kernel/lge/g3" revision="los-15.1"/>
+  <!--<project name="LineageOS/android_kernel_lge_g3" path="kernel/lge/g3" revision="lineage-15.1"/>-->
   <project groups="pdk" name="toolchain/binutils" remote="aosp"/>
   
   <repo-hooks enabled-list="pre-upload" in-project="platform/tools/repohooks"/>
